@@ -11,8 +11,8 @@
 #    t.index :part_number
 #    t.rename :upccode, :upc_code
 #end
-#  change_column_null :products, :name, false
-# change_column_default :products, :approved, from: true, to: false
+  change_column_null :products, :name, false
+ change_column_default :products, :approved, from: true, to: false
     
   
   
